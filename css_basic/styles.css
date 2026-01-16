@@ -1,0 +1,43 @@
+body, main {
+    display: flex;
+}
+
+body {
+    flex-direction: column
+}
+
+main {
+    flex-direction: row;
+    flex: auto
+}
+
+article {
+    flex: 2;
+    overflow-y: auto
+}
+
+aside {
+    flex: 1;
+    overflow-y: auto
+}
+
+a {
+    color: black
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+logo {
+    width: 10px;
+    height: 10px;
+}
+
+nav-bar {
+    display: flex;
+    justify-content: space-around;
+
+}
